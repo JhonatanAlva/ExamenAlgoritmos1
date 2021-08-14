@@ -1,0 +1,6 @@
+print("Jhonatan Alexis Lool Alvarado 0907-21-15261")
+print("Ingresa tu nombre")
+nombre=input()
+print("Bienvenido " + nombre + "este programa calcula el 15% y se lo resta al numero que indiques") 
+numero=int(input("Ingresa el numero:"))
+print("Descuento del 15% su total es:", numero-(numero*15)/100)
